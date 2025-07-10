@@ -1,6 +1,6 @@
 const User = require('../models/userModel');
 const bcrypt = require('bcryptjs');
-const sendToken = require('../utils/sendToken');
+const {sendToken} = require('../utils/sendToken');
 const ErrorHandler = require('../utils/ErrorHandler');
 const { catchAsyncErrors } = require('../middleware/catchAsyncError');
 
